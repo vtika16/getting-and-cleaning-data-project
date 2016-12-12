@@ -3,6 +3,7 @@ This is a project that is aimed to show the process of collecting, tidying and o
 
 ##The R Script
 The script goes as follows:
+
 1. It sets the directory of choice (optional to you where you set your directory)
 2. Downloads the zip file and unzips the dataset
 3. Extracts only the mean and standard deviations from the training and testing datasets
