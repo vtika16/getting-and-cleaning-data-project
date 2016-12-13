@@ -11,7 +11,7 @@ if (!file.exists(dataset)){
   download.file(fileURL, dataset)
 }  
 if (!file.exists("UCI HAR Dataset")) { 
-  unzip(filename) 
+  unzip(dataset) 
 }
 
 ##load activity labels##
